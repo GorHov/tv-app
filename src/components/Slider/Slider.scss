@@ -1,0 +1,19 @@
+.my-carousel-wrapper {
+  padding: 1rem;
+
+  .carousel-container {
+    margin: 0 auto;
+  }
+
+  .carousel-item {
+    padding: 10px;
+  }
+
+  .carousel-card {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 18px;
+  }
+}

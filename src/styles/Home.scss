@@ -1,0 +1,17 @@
+.home-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.home-sidebar {
+  width: 80px;
+}
+
+.home-main {
+  width: calc(100% - 80px);
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+}
