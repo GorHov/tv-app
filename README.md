@@ -3,7 +3,8 @@
 This is a modern TV application frontend built with **React**, powered by **Vite**, styled using **SCSS**, and state-managed with **Redux Toolkit**.
 
 ## 📦 Tech Stack
-- **React 19** (with Vite)
+- **Vite** for lightning-fast development and builds
+- **React 19**
 - **Redux Toolkit** for state management
 - **React Redux**
 - **SCSS (Sass)** for styling
@@ -24,15 +25,16 @@ git clone https://github.com/your-username/tv-app.git
 cd tv-app
 yarn install
 yarn dev
+```
 
 Frontend runs at `http://localhost:5173`.
 
-## 📁 Structure
+### 📁 Structure
 
-```
+```text
 tv-app/
 ├── public/
-│   ├── assets/
+│   └── assets/
 ├── src/
 │   ├── components/
 │   ├── data/
@@ -44,4 +46,7 @@ tv-app/
 │   ├── types/
 │   ├── App.tsx
 │   └── main.tsx
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
 ```
