@@ -4,7 +4,7 @@ This is a modern TV application frontend built with **React**, powered by **Vite
 
 ## 📦 Tech Stack
 - **Vite** for lightning-fast development and builds
-- **React 19**
+- **React 19** (with Vite)
 - **Redux Toolkit** for state management
 - **React Redux**
 - **SCSS (Sass)** for styling
@@ -21,7 +21,7 @@ This is a modern TV application frontend built with **React**, powered by **Vite
 ### Setup
 
 ```bash
-git clone https://github.com/your-username/tv-app.git
+git clone https://github.com/GorHov/tv-app.git
 cd tv-app
 yarn install
 yarn dev
@@ -50,3 +50,7 @@ tv-app/
 ├── tsconfig.json
 └── vite.config.ts
 ```
+
+## 🔗 Live Demo
+
+Check out the live app at: [https://tv-app-mauve.vercel.app/](https://tv-app-mauve.vercel.app/)
